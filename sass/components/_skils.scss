@@ -3,12 +3,14 @@
 }
 .skills__item {
   width: 270px;
+
+  & + & {
+    margin-left: 30px;
+  }
 }
-.skills__item + .skills__item {
-  margin-left: 30px;
-}
+
 .skills__title {
-  color: var(--title-text-color);
+  color: var(--title-text-co);
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;

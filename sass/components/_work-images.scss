@@ -5,12 +5,13 @@
   display: flex;
   margin-top: 50px;
 }
-.images__item + .images__item {
-  margin-left: 30px;
-}
 
 .images__item {
   position: relative;
+
+  & + & {
+    margin-left: 30px;
+  }
 }
 .images__text {
   font-weight: 700;
