@@ -4,7 +4,7 @@
     "sources": [
         "../sass/portfolio.scss",
         "../sass/utils/_vars.scss",
-        "../sass/utils/_base-styles.scss",
+        "../sass/utils/_base-styles",
         "../sass/components/_logo.scss",
         "../sass/components/_header-site-nav.scss",
         "../sass/components/_header-contact-nav.scss",
