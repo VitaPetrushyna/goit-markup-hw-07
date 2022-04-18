@@ -4,11 +4,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
 }
-.list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
+
 .header__container {
   display: flex;
   align-items: center;
@@ -19,9 +15,7 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
-.section {
-  padding: 94px 0;
-}
+
 h1,
 h2,
 h3,

@@ -15,23 +15,23 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/portfolio.min.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!--Шапка сайта-->
     <header class="header">
       <div class="container header__container">
-        <a href="" class="logo"
-          >Web<span class="logo--color-header">Studio</span></a
-        >
+        <a href="" class="logo">Web<span class="logo__dark">Studio</span></a>
         <!--<Блок навигации-->
         <nav class="nav">
-          <ul class="site-nav list">
+          <ul class="site-nav">
             <li class="site-nav__item">
               <a href="./index.html" class="site-nav__link">Студия</a>
             </li>
             <li class="site-nav__item">
-              <a href="./portfolio.html" class="site-nav__link current"
+              <a
+                href="./portfolio.html"
+                class="site-nav__link site-nav__link--current"
                 >Портфолио</a
               >
             </li>
@@ -41,7 +41,7 @@
           </ul>
         </nav>
         <!--Блок контактов-->
-        <ul class="contact-nav list">
+        <ul class="contact-nav">
           <li class="contact-nav__item">
             <a href="mailto:info@devstudio.com" class="contact-nav__link"
               ><svg class="contact-nav__icone envelope">
@@ -68,7 +68,7 @@
       <section class="section section--buttons">
         <div class="container">
           <h1 class="visually-hidden">Фильтр проектов</h1>
-          <ul class="buttons-list list">
+          <ul class="buttons-list">
             <li class="buttons-list__item">
               <button type="button" class="buttons-list__btn current">
                 Все
@@ -95,7 +95,7 @@
               </button>
             </li>
           </ul>
-          <ul class="projects-list list">
+          <ul class="projects-list">
             <li class="projects-list__item">
               <a href="" class="projects-list__link">
                 <div class="projects-list__image">
@@ -324,11 +324,9 @@
     <footer class="footer">
       <div class="container footer__container">
         <div class="footer__information">
-          <a href="" class="logo"
-            >Web<span class="logo--color-footer">Studio</span></a
-          >
+          <a href="" class="logo">Web<span class="logo__light">Studio</span></a>
           <address class="footer-adress">
-            <ul class="contact-footer list">
+            <ul class="contact-footer">
               <li class="contact-footer__item">
                 <a
                   href="https://goo.gl/maps/7qp37BieYdtHUAUU6"
@@ -353,28 +351,28 @@
         <div class="footer__social">
           <h2 class="footer__title">ПРИСОЕДИНЯЙТЕСЬ</h2>
           <ul class="footer-icons">
-            <li class="footer-icons__item list">
+            <li class="footer-icons__item">
               <a href="" class="footer-icons__link">
                 <svg class="footer-icons__svg" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-instagram-2"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-icons__item list">
+            <li class="footer-icons__item">
               <a href="" class="footer-icons__link">
                 <svg class="footer-icons__svg" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-twitter-1"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-icons__item list">
+            <li class="footer-icons__item">
               <a href="" class="footer-icons__link">
                 <svg class="footer-icons__svg" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-facebook-1"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-icons__item list">
+            <li class="footer-icons__item">
               <a href="" class="footer-icons__link">
                 <svg class="footer-icons__svg" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-linkedin-1"></use>

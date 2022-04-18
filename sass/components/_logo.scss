@@ -10,11 +10,11 @@
   letter-spacing: 0.03em;
   text-decoration: none;
 
-  &--color-header {
+  &__dark {
     color: var(--title-text-color);
     font-family: "Raleway", sans-serif;
   }
-  &--color-footer {
+  &__light {
     color: var(--primary-bg-color);
     font-family: "Raleway", sans-serif;
   }
